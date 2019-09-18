@@ -95,7 +95,7 @@ Next, **aspell** and **hunspell** are appropriate as an interactive spell checke
 
 **Ristretto** is a fast and lightweight image viewer for the Xfce desktop.
 
-**Rsync** is needed for copying and synchronizing files and directories remotely as well as locally in Linux systems. I use it [to back up my systems](http://averagelinuxuser.com/backup-and-restore-your-linux-system-with-rsync/).
+**Rsync** is needed for copying and synchronizing files and directories remotely as well as locally in Linux systems.
 
 **Thunar Archive** plugin allows you to create and extract archive files using the file context menus in the Thunar file manager.
 
@@ -153,8 +153,6 @@ After execution of the above command, you can check the status again by running:
 The verbose option provides more information from the command on the screen.
 
 This time, the result of the above command must be “active”. By default, the UFW firewall denies every incoming connection and allows only all outgoing connections. This means, no one can access your system, unless you specifically open a port, while all the running services or applications on your Debian are able to access the outside network.
-
-![After installing Debian 9: UFW settings](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/ufw.jpg)
 
 After installing Debian 9: UFW settings
 
