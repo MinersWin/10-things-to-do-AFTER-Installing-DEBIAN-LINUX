@@ -11,4 +11,5 @@ To install ```sudo```, log into your Debian system as root and issue the command
 ```apt install sudo```
 Now, ```sudo```is installed on your system.
 Next, you neet to configure your user to be permitted to use it. To achieve that, add your user to the sudo group
-```adduser **yourusername** sudo
+```adduser **yourusername** sudo```
+
