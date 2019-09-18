@@ -13,3 +13,7 @@ Now, ```sudo```is installed on your system.
 Next, you neet to configure your user to be permitted to use it. To achieve that, add your user to the sudo group
 ```adduser [yourusername] sudo```
 
+### Install Synaptic
+```Synaptic``` is a graphical package management program for apt. It provides the same features as the apt command line utility with a graphical front-end.
+To install Synaptic and some of the accompanying programs, run this command:
+```apt install gksu synaptic apt-xapian-index policykit-1-gnome```
