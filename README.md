@@ -22,31 +22,21 @@ In the above command, ```gksu``` allows users run graphical commands with admini
 ## 2. Install Whisker menu
 The Whisker menu is an alternate menu plugin for the Xfce desktop environment.
 
-![After installing Debian 9: whisker Menu](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/final-whiskermenu-e1537544344697.jpg)
-
 After installing Debian 9: Whisker Menu
 
 You can the Whisker plugin from the _Synaptic_ package manager. Search for `xfce4-whiskermenu-plugin`, right-click on it, and select _Mark for Installation._ Then click on the _Apply_ button in the toolbar. Synaptic will automatically download and install the selected package.
-
-![After installing Debian 9:select whisker menu](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/mark-for-installtion-min.jpg)
 
 After installing Debian 9: select whisker menu
 
 To replace the previously installed application menu and action buttons with the Whisker menu, you need to configure your panel. Open _Panel Preferences_ by right-clicking anywhere on the panel and go to _Panel_ and then _Panel Preferences_.
 
-![After installing Debian: Panel preference](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/panel-e1537544515730.jpg)
-
 After installing Debian: Panel preference
 
 Next, click on the _Items tab_, and you will see your panel current configuration. Remove the _Application menu_ and _Action buttons._
 
-![After installing Debian: remove previous applications](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/remove-previous-applications.jpg)
-
 After installing Debian 9: remove previous applications
 
 Now, add the _Whisker menu plugin_ and move it to your desired position.
-
-![After installing Debian 9: add whisker Menu](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/add-whisker-Menu.jpg)
 
 After installing Debian 9: add whisker Menu
 
@@ -65,8 +55,6 @@ Open `/etc/apt/sources.list` using Nano text editor:
     
 
 Add `contrib non-free` after `main` as shown below:
-
-![After installing Debian 9: adding repositories](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/adding-repositories-min-800x491.jpg)
 
 After installing Debian 9: adding repositories
 
@@ -136,8 +124,6 @@ Microcode could be considered as firmware of the CPU, which adds more functional
 
 To install microcode, open _Synaptic_, type `microcode` in the search tool. You only need to install the package related to the brand of CPU in the system. For example, installing `amd64-microcode` on a system with an Intel processor makes no sense. Click and select _Mark for Installation_ and then click the _Apply button_ on the toolbar. Synaptic will automatically download and install the selected package. After installation, you must reboot your system.
 
-![After installing Debian 9: install microcode](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/microcode-800x494.jpg)
-
 After installing Debian 9: install microcode
 
 6\. Configure firewall
@@ -177,8 +163,6 @@ After installing Debian 9: UFW settings
 
 Every single time when you start your Debian system, the fact that, you either have to press _Enter_ or wait for five seconds.
 
-![Debian Grub menu](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/Debian-Grub.jpeg)
-
 Debian GRUB menu. You usually need to wait or press Enter here.
 
 Fortunately, it is possible for GRUB to boot directly without any prompt.
@@ -189,8 +173,6 @@ The default settings for the GRUB timeout menu selection during the system boot 
     
 
 Change the delay value to 0 seconds, by setting `GRUB_TIMEOUT=0`:
-
-![After installing Debian 9: Disable GRUB](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/grub-800x499.jpg)
 
 After installing Debian 9: Disable GRUB
 
@@ -204,13 +186,9 @@ Once you are done, press Ctrl+O and Ctrl+X to save and exit Then update your GRU
 
 As you may know, lightDM is the login greeter that prompts the user for credentials. By default, you need to type your username and the password.
 
-![You need to type your usersname in the login manager](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/lightDM-type-usersname.jpeg)
-
 You need to type your username in the login manager
 
 Here, I am going to share how to show the user list on the login screen, so you only need to enter the password.
-
-![lightDM remembers the usersname](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/lighDM-saves-usersname.jpeg)
 
 lightDM remembers the username
 
@@ -236,23 +214,17 @@ These tweaks will help you to makeover your Debian desktop. For example, you may
 
 To configure the windows look, go to _Xfce Setting_ and click on the _Window manager_.
 
-![After installing Debian 9: Xfce setting](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/xfce-setting.jpg)
-
 After installing Debian 9: Xfce setting
 
 The first tab name is S_tyle_. You can change _Title font_, _Title alignment_ and _Button layout_ using this S_tyle_ tab.
 
 I usually remove the _shade_ and _maximize_ button. Just drag the _shade_ and _maximize_ button from _active_ block to the _hidden_ block.
 
-![After installing Debian 9: remove window buttons](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/without-buttons-min-1.jpg)
-
 After installing Debian 9: remove window buttons
 
 ### Enable double-click on the titlebar to maximize
 
 In the same settings window as above in the _Advanced tab_, enable the _double-click_ option. It allows you to maximize the window when you double-click on the titlebar. Moreover, I also recommend enabling the _Window snapping to other windows_ feature here_._ It makes it easy to line-up your windows side by side.
-
-![After installing Debian 9: window snapping](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/snapping-800x491.jpg)
 
 After installing Debian 9: window snapping
 
@@ -262,13 +234,9 @@ By default, open windows will appear somewhere on the desktop. I personally don�
 
 You can adjust the placement of new open windows on the desktop in the _Window Manager Tweaks_. Go to _Xfce Setting_ and then click on the _Window Manager Tweaks_:
 
-![After installing Debian 9: window manager tweaks](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/window-manager-tweaks-800x505.jpg)
-
 After installing Debian 9: window manager tweaks
 
 Find the settings for _Placement_ and scroll bar to the maximum left side to set it to _Large,_ so that windows open always in the center of your screen.
-
-![After installing Debian 9: placement](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/large-800x587.jpg)
 
 After installing Debian 9: placement
 
@@ -280,15 +248,11 @@ You can customize keyboard shortcuts to trigger the required command. For exampl
 
 For this, go to _Xfce Setting_ and then click on the _Keyboard_.
 
-![After installing Debian 9: Keyboard](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/keyboard-800x491.jpg)
-
 After installing Debian 9: Keyboard
 
 Next, select the _Application Shortcuts_ tab then click on _Add_ button and pick the command. For example, I select `xkill` here. Next, click OK.
 
 The application then throws up a box telling you to press the key combination. Press the shortcut you want to assign the command to. I press _Ctrl+Alt+Esc._
-
-![After installing Debian 9: Adding Shortcut](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/Adding-Shortcut-min.jpg)
 
 After installing Debian 9: Adding Shortcut
 
@@ -296,15 +260,11 @@ To verify the assigned shortcut, press it. Again, I press _Ctrl+Alt+Esc_ to exec
 
 The `xkill` will transform your mouse cursor into an _x_ or into a skull (depending on your icon set). Now you can simply left-click on whatever application and it’ll be killed in an instant.
 
-![After installing Debian 9: Kill frozen App](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/frozen-min-e1537547394958.jpg)
-
 After installing Debian 9: Kill frozen App
 
 ### Session and startup
 
 Auto-starting applications, also known as startup applications, includes programs that automatically launch themselves when you turn on your computer. You may want to disable some programs you don’t use, to save resources of your Linux system, To configure it, go to the _Settings_ -> _Session and Startup_ -> _Application autostart_ tab.
-
-![Startup applications](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/startup-app-800x676.jpeg)
 
 Startup applications
 
@@ -317,8 +277,6 @@ At certain time and situation, you might need to completely remove application m
 
 In synaptic, search for the program that you want to remove. You can do it by browsing through the categories, or just type the name of the program in the search box. For instance, I want complete removal of _mutt_.
 
-![After installing Debian 9: complete removal](/assets/images/posts/2018-09-26-10-things-to-do-after-installing-debian/complete-removal-800x491.jpg)
-
 After installing Debian 9: complete removal
 
 Once you’ve found the program, right-click on it and select the _Mark for Complete Removal_. Apply the changes.
@@ -328,27 +286,3 @@ To clean the system from any orphan files, run these two commands:
     sudo apt autoremove
     sudo apt clean
     
-
-There is more...
-----------------
-
-That’s all from this article, I hope these 10 things after installing Debian 9 will help you to make your Debian 9 Xfce faster and more efficient. If you want to make your Debian 9 Xfce better looking, [install some of the best Xfce themes](http://averagelinuxuser.com/xfce-look-modern-and-beautiful/). I also highly recommend you go through my post on [How NOT to break Debian](http://averagelinuxuser.com/how-not-to-break-your-debian-system/).
-
-Let me know what you would add to this list.
-
-26 Sep 2018
-
-![Average Linux User](/assets/images/ALU_avatar.png)
-
-[Average Linux User](http://averagelinuxuser.com)[Follow](https://twitter.com/AVGLinuxUser) I am the founder of the Average Linux User project, which is a hobby I work on at night. During the day I am a scientist who uses computers to analyze genetic data.
-
-*   [Things To do After Install](/categories#Things-To-do-After-Install)
-
-*   [#Debian](/tags#Debian)
-*   [#Xfce](/tags#Xfce)
-*   [#after install](/tags#after-install)
-*   [#backup](/tags#backup)
-*   [#firewall](/tags#firewall)
-*   [#synaptic](/tags#synaptic)
-
-[« Customize Ubuntu 18.04: Themes, Icons, Layouts](/customize-ubuntu-18-04/) [Make GIF in Linux with one simple command »](/make-gif-in-linux-with-one-simple-command/)
